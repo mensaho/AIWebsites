@@ -1,0 +1,198 @@
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    scroll-behavior: smooth;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: fixed;
+}
+
+nav{
+      padding: 10px;
+    flex-wrap: wrap;
+  
+}
+
+
+
+
+.navbar a:hover{
+text-decoration: underline;
+padding:1px;
+
+}
+
+.content h1{
+    font-size: 100px;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 90px;
+}
+
+span{
+    color:green;
+    font-size: 53px;
+}
+
+.line{
+    width: 10%;
+    padding: 5px;
+    background-color: green;
+    border-radius: 50px;
+      border-style: none;
+   
+    
+}
+
+
+.content{
+    text-align: center;
+  
+}
+
+.content p{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+ 
+
+}
+
+.robots{
+    width: 600px;
+    height: 500px;
+    float: right;
+    margin-top: -20px;
+    border-radius: 10px 10px 10px 10px ;
+  
+}
+
+.future{
+    height: 70px;
+    width: 300px;
+    padding: 1px;
+    background-color: rgba(9, 4, 3, 0.3);
+    color: white;
+    border-radius: 15px 15px 15px 15px ;
+    border-color: transparent;
+    transition: 0.2 ease-in-out;
+    transform: translateX(40);
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.future:hover{
+    background-color: whitesmoke;
+    color: black;
+    width: 311px;
+    height: 72px;
+}
+
+.first{
+    width: 200px;
+    height: 130px;
+    border-radius: 5px 5px 5px 5px ;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: rgba(9, 4, 3, 0.3);
+    margin: 20px;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+   
+}
+
+.first:hover,.free:hover,.Tools:hover{
+    box-shadow: 5px 5px 5px 5px rgba(9, 4, 3, 0.9);
+    width: 210px;
+    height: 130px;
+}
+
+.first h1{
+    font-size: 60px;
+    color: green;
+}
+
+.first p{
+    font-size: 12px;
+     color: white;
+}
+
+.Tools h1{
+    font-size: 60px;
+     color: green;
+}
+
+.Tools p{
+    font-size: 12px;
+     color: white;
+}
+
+
+.Tools{
+    width: 210px;
+    height: 130px;
+    border-radius: 5px 5px 5px 5px ;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: rgba(9, 4, 3, 0.3);
+    margin: 20px;
+     cursor: pointer;
+     transition: all ease-in-out 0.2s;
+    
+}
+
+
+
+.free h1{
+    font-size: 60px;
+    color: green;
+}
+
+.free p{
+    font-size: 12px;
+    color: white;
+}
+
+
+.free{
+    width: 210px;
+    height: 130px;
+    border-radius: 5px 5px 5px 5px ;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: rgba(9, 4, 3, 0.3);
+    margin-top: 50px;
+    margin: 20px;
+     cursor: pointer;
+     transition: all ease-in-out 0.2s;
+}
+
+.All_Arrange{
+    display: flex;
+    justify-content: center;
+}
+

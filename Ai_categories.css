@@ -1,0 +1,203 @@
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    scroll-behavior: smooth;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: fixed;
+}
+
+nav{
+      padding: 10px;
+    flex-wrap: wrap;
+  
+}
+
+
+
+
+
+
+.content h1{
+    font-size: 100px;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 90px;
+    color: white;;
+    text-align: center;
+
+}
+
+span{
+    color:green;
+    font-size: 53px;
+}
+
+.line{
+    width: 10%;
+    padding: 5px;
+    background-color: green;
+    border-radius: 50px;
+      border-style: none;
+
+}
+
+.All_AIs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+/* --- AI Category Card Styles --- */
+.write, .Image_generation, .Video_generation, .Presentation_generation, 
+.CodeDev_generation, .chatbot_generation, .ResearchLearning_generation, 
+.DesignUX_generation, .Productive_generation, .MarketingSEO_generation, 
+.Translation_generation {
+    background: rgba(10, 25, 47, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 255, 0, 0.2);
+    border-radius: 15px;
+    color: #e6f1ff;
+    padding: 25px;
+    text-align: center;
+    margin: 15px;
+    width: 350px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.write h1, .Image_generation h1, .Video_generation h1, .Presentation_generation h1, 
+.CodeDev_generation h1, .chatbot_generation h1, .ResearchLearning_generation h1, 
+.DesignUX_generation h1, .Productive_generation h1, .MarketingSEO_generation h1, 
+.Translation_generation h1 {
+    color: green;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.write p, .Image_generation p, .Video_generation p, .Presentation_generation p, 
+.CodeDev_generation p, .chatbot_generation p, .ResearchLearning_generation p, 
+.DesignUX_generation p, .Productive_generation p, .MarketingSEO_generation p, 
+.Translation_generation p {
+    font-size: 1em;
+    line-height: 1.5;
+    flex-grow: 1; /* Allows paragraph to fill space */
+}
+
+.write:hover, .Image_generation:hover, .Video_generation:hover, .Presentation_generation:hover, 
+.CodeDev_generation:hover, .chatbot_generation:hover, .ResearchLearning_generation:hover, 
+.DesignUX_generation:hover, .Productive_generation:hover, .MarketingSEO_generation:hover, 
+.Translation_generation:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4), 0 0 15px rgba(0, 255, 0, 0.3);
+}
+
+details {
+    margin-top: auto; /* Pushes the details section to the bottom */
+}
+
+summary {
+    background-color: green;
+    color: black;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+}
+
+summary:hover {
+    background-color: #009a00;
+}
+
+details ul {
+    list-style-type: none;
+    padding: 15px 0 0 0;
+    text-align: left;
+}
+
+details li {
+    padding: 8px 5px;
+    border-bottom: 1px solid rgba(0, 255, 0, 0.1);
+}
+
+details a {
+    text-decoration: none;
+    color: #e6f1ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: color 0.3s ease;
+}
+
+details a:hover {
+    color: green;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgba(19, 18, 18, 0.8);
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 60px;
+    border-top: 2px solid green;
+}
+
+.footer-content p {
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+.footer-content h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: color 0.3s ease;
+}
+.footer-links a:hover {
+    color: green;
+}
+  .social_links {
+            text-align: center; 
+        }
+        .social {
+            width: 50px; 
+            height: 50px;
+            margin: 0 10px; 
+            transition: transform 0.3s ease;
+            border-radius: 50px;
+            margin-bottom: 20px;
+           
+        }
+        .social:hover {
+            transform: scale(1.2); /* Enlarge the icon slightly when hovered over */
+        }
